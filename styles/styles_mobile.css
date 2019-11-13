@@ -1,0 +1,177 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.flex-container	{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	/*justify-content: center;*/
+	}
+
+.navlist {
+	justify-content: flex-start;
+	order: 2;
+	list-style-type: none;
+	color: #E6E8EB;
+	font-family: Prompt, sans-serif;
+	font-size: 1.5em;	
+	margin-left: 0px;
+	}
+	
+.navlistitem {
+	list-style-type: none;
+	margin-left: 0px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: 10px;
+	padding: 10px;
+	background-color: #FCAF1F;
+	border-style: outset;
+	border-radius: 5px;
+	}
+
+.hisnavlist {
+	order: 4;
+	width: 100%;
+	text-align: center;
+	font-size: 1.5em;
+	}
+
+.hisnavlistitem {
+	list-style-type: none;
+	color:#E6E8EB;
+	font-family: Prompt, sans-serif;
+	font-size: 1.25em;	
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: 10px;
+	padding: 10px;
+	background-color: #FCAF1F;
+	border-style: outset;
+	border-radius: 5px;
+	}
+	
+.hisnavlistitem a {
+	
+    }
+	
+/*.hisnavlistitem a:hover {
+	background-color: lightblue;
+	border-radius: 5px;
+	}*/
+
+.h1 {
+	text-align: center;
+	font-family: Prompt, sans-serif;
+	font-size: 3em;
+	width: 100%;
+	padding: 1%;
+	margin: 1%;
+	border-style: solid;
+	border-radius: 5px; 
+	}
+			
+.h1 {
+	justify-content: flex-start;
+	order: 1;
+	text-align: left;
+	font-family: Prompt, sans-serif;
+	font-size: 2em;
+	width: 100%;
+	padding: 5px;
+	margin: 1%;
+	border-style: solid;
+	border-radius: 5px; 
+	}
+	
+.logo {
+	float: left;
+	height: 50px;
+	padding-right: 5px;
+    }
+	
+.logo2 {
+	display: none;
+	float: right;
+	height: 100px;
+	}
+	
+.h2 {
+	text-align: center;
+	color: #1926BC;
+	font-family: Prompt, sans-serif;
+	margin-top: 0px;
+	}
+
+.mainpara  {
+    order: 3;
+	width: 24%;
+	height: auto;
+   	font-family: 'Goudy Bookletter 1911', serif;
+	font-size: 1em;
+	margin: 1%;
+	padding: 10px;
+	border-style: solid;
+	border-color: black;
+	border-radius: 5px;
+	text-overflow: clip;
+    }
+
+.historypara  {
+	order: 3;
+    justify-content: flex-start;
+	width: 40%;
+	height: auto;
+   	font-family: 'Goudy Bookletter 1911', serif;
+	font-size: 1em;
+	margin: 1%;
+	padding: 1%;
+	border-style: solid;
+	border-color: black;
+	border-radius: 5px;
+    }   
+
+.video	{
+	order: 4;
+	border-style: solid;
+	border-radius: 5px;
+	width: 45%;
+	height: auto;
+	margin: 1%;
+	display: flex;
+	flex-direction: row;
+   }
+   
+.forum {
+	/*justify-content: flex-start;*/
+	order: 4;
+	width: 24%;
+	height: 300px;
+	margin: 1%;
+	padding: 10px;
+	border-style: solid;
+	border-color: black;
+	border-radius: 5px;
+     }
+
+.header {
+	display: none;
+	font-size: .5em;
+	margin-top: 0px;
+    }
+
+.leaderimage {
+	font-family: 'Goudy Bookletter 1911', serif;
+	text-align: center;
+	margin: 2%;
+	border-style: solid;
+	border-radius: 7px;
+	box-shadow: 5px 5px 5px;
+	
+	
+ footer {
+	text-align: center;
+	font-family: 'Goudy Bookletter 1911', serif;
+	padding: 2%;
+	}

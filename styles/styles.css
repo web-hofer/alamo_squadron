@@ -1,0 +1,228 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.flex-container	{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: left;
+	}
+
+.flex-navigator {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: left;
+	margin: 2%;
+	}
+	
+.navlist {
+	justify-content: flex-start;
+	list-style-type: none;
+	width: 100%;
+	text-align: center;
+	}
+
+.navlistitem {
+	display: inline;
+	color:#E6E8EB;
+	font-family: Prompt, sans-serif;
+	font-size: 1.5em;	
+	}
+	
+.navlistitem a {
+	padding-left: 1%;
+	padding-right: 1%;
+    }
+	
+.navlistitem a:hover {
+	background-color: #FCAF1F;
+	border-radius: 5px;
+	}
+	
+.hisnavlist {
+	width: 30%;
+	text-align: center;
+	}
+
+.hisnavlistitem {
+	list-style-type: none;
+	color:#E6E8EB;
+	font-family: Prompt, sans-serif;
+	font-size: 1.25em;
+	margin: 3%;
+	}
+	
+.hisnavlistitem a {
+	padding-left: 1%;
+	padding-right: 1%;
+	border-radius: 5px;
+    }
+	
+.hisnavlistitem a:hover {
+	background-color: #FCAF1F;
+	border-radius: 5px;
+	}
+
+.h1 {
+	text-align: center;
+	font-family: 'Goudy Bookletter 1911', serif;
+	font-size: 3em;
+	width: 100%;
+	padding: 1%;
+	margin: 1%;
+	border-style: solid;
+	border-radius: 5px; 
+	box-shadow: 5px 5px 5px;
+	}
+	
+.logo {
+	float: left;
+	height: 100px;
+	}
+	
+.logo2 {
+	float: right;
+	height: 100px;
+	}
+	
+.h2 {
+	text-align: center;
+	color: #1926BC;
+	font-family: 'Goudy Bookletter 1911', serif;
+	margin-top: 0px;
+	}
+
+.mainpara  {
+    justify-content: flex-start;
+	width: 24%;
+	height: auto;
+   	font-family: 'Goudy Bookletter 1911', serif;
+	font-size: 1.25em;
+	margin: 1%;
+	padding: 1%;
+	border-style: solid;
+	border-color: black;
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px;
+    }
+	
+.historypara  {
+    justify-content: flex-start;
+	width: 60%;
+	height: auto;
+   	font-family: 'Goudy Bookletter 1911', serif;
+	font-size: 1.25em;
+	margin: 1%;
+	padding: 1%;
+	border-style: solid;
+	border-color: black;
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px;
+    }
+
+.conpara {
+	justify-content: flex-start;
+	width: 100%;
+	height: auto;
+   	font-family: 'Goudy Bookletter 1911', serif;
+	font-size: 1.25em;
+	margin: 1%;
+	padding: 2%;
+	border-style: solid;
+	border-color: black;
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px;
+	}
+
+.navpara {
+	justify-content: center;
+	width: 100%;
+	height: auto;
+	text-align: center;
+   	font-family: 'Goudy Bookletter 1911', serif;
+	font-size: 1.25em;
+	margin: 1%;
+	padding: 2%;
+	border-style: solid;
+	border-color: black;
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px;
+	
+}
+	
+/*.historypara::first-letter {
+	font-size: 3em;
+	}*/
+   
+.video	{
+	border-style: solid;
+	border-radius: 5px;
+	width:40%;
+	margin: 1%;
+    }
+   
+.forum {
+	/*justify-content: flex-start;*/
+	width: 24%;
+	height: 300px;
+	margin: 1%;
+	padding: 10px;
+	border-style: solid;
+	border-color: black;
+	border-radius: 5px;
+    }
+
+.header {
+	font-size: .5em;
+    }
+
+.navigator {
+	margin: .5%;
+	text-align: center;
+	font-family: Prompt, sans-serif;
+	width: 120px;
+	height: 154px;
+	border-radius: 3px;
+	box-shadow: 3px 3px 3px;
+    }
+
+.hisimage {
+	justify-content: flex-start;
+	width: 20%;
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px;
+	}
+
+.leaderimage {
+	font-family: 'Goudy Bookletter 1911', serif;
+	text-align: center;
+	margin: 2%;
+	border-style: solid;
+	border-radius: 7px;
+	box-shadow: 5px 5px 5px;
+	}
+
+.meetingimage {
+	margin: 2%;
+	border-style: solid;
+	border-radius: 7px;
+	box-shadow: 5px 5px 5px;
+}
+
+.tr {
+	padding: 1%;
+	}
+
+tr:hover {
+	background-color: #FCAF1F;
+	}
+
+
+
+footer {
+	text-align: center;
+	font-family: 'Goudy Bookletter 1911', serif;
+	padding: 2%;
+	}
